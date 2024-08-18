@@ -1,0 +1,96 @@
+body{
+    background-image: url(./img/restaarant.jpeg) ;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: -5px;
+    
+   
+    
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-top: -50px;
+    margin-left: 900px;
+    cursor: pointer;
+}
+
+.logo1{
+    height: 30px;
+    width: 30px;
+    margin-top: -80px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.star{
+    
+        height: 50px;
+        width: 100px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: -55px;
+}
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+.head{
+    margin: 20PX;
+}
+.navbar {
+  
+  background: #fff;
+  height: 20px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: 5px;
+}
+
+h1{
+    font-family: Jolly Lodger    ;
+    color:whitesmoke;
+    text-align:  center;
+    margin: 10px ;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    margin-top:100px;
+    margin-left: 30%;
+    justify-content: center;
+    margin-top:-20px;
+
+}
+
+.search input{
+    outline: none;
+    border: 2px black solid;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+    
+
+}
+  
+.submit{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 35%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px black solid;
+    height: 30px;
+    width: 70px;
+}
+
+/* footer */

@@ -1,0 +1,129 @@
+.login-container{
+    position: fixed;
+    top:0; left:0;
+    min-height: 0vh;
+    width: 100%;
+    background-image: url(./../img/restaarant.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+     height: 100%;
+}
+
+.login-container form{
+    margin:20px;
+    padding: 20px 15px;
+    border-radius: 30px;
+    width:30%;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 6px 1px white;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.login-container form h3{
+    font-size: 30px;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login-container form .box{
+    width: 87%;
+    padding:10px;
+    font-size: 15px;
+    color:white;
+    margin:10px;
+    border: solid rgba(0.0.0,0,.3);
+    text-transform: none;
+    margin-left: 20px;
+}
+
+.login-container form .box :focus{
+    border-color: #0a534f;
+}
+
+
+.login-container form label{
+    font-size:10px;
+}
+
+.login-container form .btn{
+    display:block;
+    width:94%;
+    margin-left: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    
+    
+}
+.login-container form .btn:hover{
+    text-decoration: underline;
+}
+
+.login-container form p{
+  /*  padding:5px 10px;*/
+    font-size: 18px;
+    color:white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+
+.login-container form p a{
+    color: blue;
+}
+
+.login-container form p a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width:900px /*1029px*/) {
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+    .login-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+   
+
+    .login-container form {
+        width: 40%;
+        margin-right: 0;
+       margin: 20px auto;
+       padding-right:40px;
+       padding-left: 5px;
+       border-radius: 20px;
+       box-shadow: 1px 1px 5px 1px gray;
+       padding-top: 3px;
+     
+     }
+
+     .login-container form h3{
+        margin-left: 20px;
+        
+     }
+     
+     .login-form-container form .btn{
+        width:95%;
+     }
+     .login-form-container form .box{
+        width:80%;
+     }
+}
