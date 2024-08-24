@@ -1,0 +1,21 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 440px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px white solid;
+    
+    box-shadow:0px 0px 10px 0px black ;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}

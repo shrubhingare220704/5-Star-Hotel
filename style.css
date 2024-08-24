@@ -1,8 +1,9 @@
 body{
-    background-image: url(./img/restaarant.jpeg) ;
+     /* background-image: url(./img/restaarant101.jpeg ) ;  */
     background-size: 100%;
     background-attachment: fixed;
-    margin: -5px;
+    margin: -10px;
+    background-color:rgb(224, 226, 241);
     
    
     
@@ -12,7 +13,7 @@ body{
     height: 40px;
     width: 40px;
     margin-top: -50px;
-    margin-left: 900px;
+    margin-left: 880px;
     cursor: pointer;
 }
 
@@ -47,21 +48,21 @@ body{
 .navbar {
   
   background: #fff;
-  height: 20px;
+  height: 25px;
   width: 100%;
   padding: 15px;
   text-align: center;
   margin: 5px;
 }
 
-h1{
+/* h1{
     font-family: Jolly Lodger    ;
     color:whitesmoke;
     text-align:  center;
     margin: 10px ;
     padding: 40px;
     font-size: 50px;
-}
+} */
 
 .search{
     position: absolute;
@@ -94,3 +95,44 @@ h1{
 }
 
 /* footer */
+footer {
+    width: 100%;
+    background-color:   #101223;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+ 
+  ul{
+    list-style: none;
+    margin-left: -40px; 
+ 
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+  }
+
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  h4{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    /* margin-bottom: 30px; */
+    margin: 30px ;
+  }
+
+  .no-underline{
+    text-decoration:none;
+    color:white;
+  
+  
+  }
+  
